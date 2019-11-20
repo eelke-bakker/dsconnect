@@ -32,7 +32,6 @@ p {
 
 h3 {
     color: #41464b;
-    
 }
 
 
@@ -65,7 +64,7 @@ h3 {
      text-align: center; 
 }
 
-
+/* the font is responsive, adjust the responsive file in the dsconnect_responsive.css */
 #home-heading h3 {
     color: #fff;
     font-size: 55px;
@@ -74,7 +73,7 @@ h3 {
 }
 
 
-#home-heading h5 {
+#home-heading h4 {
     color: #fff;
     font-size: 35px;
     font-weight: 700;
