@@ -41,14 +41,14 @@
     .vesco-nav-wrapper {
         padding: 0;
     }
-    /* About - remove diagonal border */
-    #about-bg-diagonal {
+    /* Mission - remove diagonal border */
+    #mission-bg-diagonal {
         border-left: 0;
         border-top: 0;
         width: 100%;
         height: 350px;
     }
-    #about-content-box {
+    #mission-content-box {
         width: 100%;
         height: 350px;
     }
@@ -77,6 +77,12 @@
     .vesco-nav-wrapper {
         padding: 0;
     }
+	
+	/* general */
+	.content-box {
+    padding: 40px 0 40px 0;
+	}
+	
     /* Home */
     #home-heading h3 {
         font-size: 28px;
@@ -89,14 +95,14 @@
         padding: 6px 22px 6px 22px;
         font-size: 14px;
     }
-    /* About - remove diagonal border */
-    #about-bg-diagonal {
+    /* Mission - remove diagonal border */
+    #mission-bg-diagonal {
         border-left: 0;
         border-top: 0;
         width: 100%;
         height: 350px;
     }
-    #about-content-box {
+    #mission-content-box {
         width: 100%;
         height: 350px;
     }
@@ -132,13 +138,25 @@
 
 @media (max-width: 480px) {
     /* OK */
+		/* general */
+	.content-box {
+    padding: 40px 0 40px 0;
+	}
+
 }
 
 
 /* Extra Small Devices (Portrait Phones & Smaller devices) */
 
 @media (max-width: 320px) {
-    /* Services */
+
+				/* general */
+	.content-box {
+    padding: 40px 0 40px 0;
+	}
+	
+	
+	/* Services */
     .service-item-icon i {
         width: 58px;
         height: 58px;
@@ -147,10 +165,10 @@
     .service-item-title h3 {
         font-size: 17px;
     }
-    /* About */
-    #about-content-box {
-        margin-top: 40px;
-    }
+    /* Mission */
+    #mission-content-box { 
+         margin-top: 40px; 
+    /} 
     /* Testimonials */
     .testimonial img {
         max-width: 80px;
