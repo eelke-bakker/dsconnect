@@ -7,6 +7,9 @@
 
 @media (min-width: 1200px) {
     /* OK */
+    .links {
+        padding: 60px;
+    }
 }
 
 
@@ -23,6 +26,9 @@
     }
     .vesco-nav-wrapper {
         padding: 0;
+    }
+    .links {
+        padding: 50px;
     }
 }
 
