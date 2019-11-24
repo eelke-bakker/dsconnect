@@ -66,6 +66,10 @@
     #footer-copyrights {
         text-align: center;
     }
+	
+	.links {
+        padding: 50px;
+    }
 }
 
 
@@ -137,6 +141,8 @@
     #footer-copyrights {
         text-align: center;
     }
+	
+	
 }
 
 
@@ -148,13 +154,16 @@
 	.content-box {
     padding: 40px 0 40px 0;
 	}
+	.links {
+        padding: 35px;
+    }
 
 }
 
 
 /* Extra Small Devices (Portrait Phones & Smaller devices) */
 
-@media (max-width: 320px) {
+@media (min-width: 250px) and (max-width: 319px) {
 
 				/* general */
 	.content-box {
@@ -187,5 +196,15 @@
     }
     .testimonial blockquote:after {
         right: 7px;
+    }
+	.links {
+        padding: 40px;
+    }
+	
+}
+
+@media (min-width: 200px) and (max-width: 249px){
+.links {
+        padding: 80px;
     }
 }
